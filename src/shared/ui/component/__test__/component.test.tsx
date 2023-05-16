@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import { Component } from '../component';
 
 describe('/shared/ui/component', () => {
-  it('Название', () => {
+  it('Название 1', () => {
     render(<Component>test</Component>);
     const element = screen.getByTestId(/Component/i);
     expect(element).toBeInTheDocument();

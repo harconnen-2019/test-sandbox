@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`/shared/ui/component Название 1`] = `
+exports[`/shared/ui/component Название 1 1`] = `
 <div
   class="container"
   data-testid="Component"
