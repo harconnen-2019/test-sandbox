@@ -40,6 +40,7 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:sonarjs/recommended',
     'plugin:promise/recommended',
+    'plugin:jsdoc/recommended-typescript',
     'plugin:jest/recommended',
     'plugin:jest/style',
     'prettier',

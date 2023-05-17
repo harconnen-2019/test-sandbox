@@ -5,6 +5,10 @@ import viteLogo from '@/shared/assets/vite.svg';
 
 import './App.css';
 
+/**
+ *
+ * @returns JSX.Element
+ */
 function App() {
   const [count, setCount] = useState(0);
 
@@ -35,4 +39,4 @@ function App() {
   );
 }
 
-export default App;
+export { App };
