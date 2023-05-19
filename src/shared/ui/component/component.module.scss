@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  color: aqua;
+
+  &:hover {
+    color: #fff;
+  }
+
+  p {
+    color: red;
+  }
+
+  @media (orientation: landscape) {
+    width: 500px;
+  }
+}

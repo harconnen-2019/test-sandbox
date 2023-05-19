@@ -9,6 +9,6 @@ module.exports = {
   },
   coveragePathIgnorePatterns: ['/node_modules/'],
   moduleNameMapper: {
-    '\\.(css|less)$': 'identity-obj-proxy',
+    '\\.(css|scss)$': 'identity-obj-proxy',
   },
 };

@@ -4,6 +4,7 @@ import reactLogo from '@/shared/assets/react.svg';
 import viteLogo from '@/shared/assets/vite.svg';
 
 import './App.css';
+import { Component } from './shared/ui';
 
 /**
  *
@@ -35,6 +36,10 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
+      <Component>
+        <p>text</p>
+        test
+      </Component>
     </>
   );
 }

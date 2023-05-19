@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-import styles from './component.module.css';
+import styles from './component.module.scss';
 
 type ComponentProps = {
   children: ReactNode;
