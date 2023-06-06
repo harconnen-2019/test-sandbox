@@ -7,9 +7,11 @@ type ComponentProps = {
 };
 
 /**
- * @param props object
+ * [ ] не выбран
+ * [x] выбран
+ * @param props ComponentProps
  * @param props.children ReactNode
- * @returns JSX.Element
+ * @returns Компонент с параметрами
  */
 function Component({ children }: ComponentProps) {
   return (

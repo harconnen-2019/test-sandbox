@@ -58,6 +58,16 @@ module.exports = {
     },
   },
   plugins: ['react-refresh', 'boundaries', 'import'],
+  overrides: [
+    {
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+      extends: ['plugin:testing-library/react'],
+    },
+    // {
+    //   files: ['**/*.cjs'],
+    //   extends: ['plugin:n/recommended'],
+    // },
+  ],
   settings: {
     'import/resolver': { typescript: {} },
     'boundaries/elements': [...getLayersBoundariesElements()],

@@ -1,2 +1,3 @@
 export * from './button';
-export * from './component';
+export { Component as Comp } from './component';
+export * from './spin';

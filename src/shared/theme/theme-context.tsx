@@ -13,9 +13,9 @@ const ThemeDispatchContext = React.createContext<Dispatch | undefined>(undefined
 
 /**
  *
- * @param state State
- * @param action Action
- * @returns state
+ * @param state    {State}  - текущее состояние
+ * @param action   {Action} - список действий
+ * @returns state  {State}  - новое состояние
  */
 function themeReducer(state: State, action: Action): State {
   switch (action.type) {
@@ -27,15 +27,16 @@ function themeReducer(state: State, action: Action): State {
       return { theme: newTheme };
     }
     default: {
-      throw new Error('Тип действия без обработки');
+      const exhaustiveCheck: never = action;
+      throw new Error(`Такого действия "${exhaustiveCheck}" не существует`);
     }
   }
 }
 
 /**
  *
- * @param props ThemeProviderProps
- * @param props.children React.ReactNode
+ * @param props {ThemeProviderProps}
+ * @param props.children {React.ReactNode}
  * @returns JSX.Element
  */
 function ThemeProvider({ children }: ThemeProviderProps) {
