@@ -11,7 +11,7 @@ type ComponentProps = {
  * [x] выбран
  * @param props ComponentProps
  * @param props.children ReactNode
- * @returns Компонент с параметрами
+ * @returns Компонент с параметрами 1
  */
 function Component({ children }: ComponentProps) {
   return (
